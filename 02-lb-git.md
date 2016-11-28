@@ -29,7 +29,6 @@ In principle, there are multiple ways of interacting with the LHCb software repo
  2. An LHCb-specific workflow using a set of `lb-*` subcommands.
     This allows you to check out individual packages inside a project, and
     streamlines the modification of a few packages at a time.
-    This is closer to the previously used `getpack` command.
 
 Here, we want to focus on the second workflow.
 
@@ -148,4 +147,3 @@ Add a title for your merge request and explain what you've done in the main text
 >  - Now, try to resolve the merge conflict.
 >    This is a bit complicated because of the way the local repository is set up.
 >    Take a look at [https://twiki.cern.ch/twiki/bin/view/LHCb/Git4LHCb#Replacement_for_svn_update_in_lo](https://twiki.cern.ch/twiki/bin/view/LHCb/Git4LHCb#Replacement_for_svn_update_in_lo) for pointers.
-
